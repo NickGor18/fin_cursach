@@ -2,21 +2,19 @@
 \section{Применение метода MPC к решению задачи об экономическом росте}
 \hfill\break
 Рассмотрим задачу (2.14).
-\begin{center}
-$ J(x,u) = \int_{0}^{\infty}e^{-\rho t}[\ln(1-u(t))+\ln f(x(t))]dt \rightarrow \max.$\\
-$ \dot{x}(t) = u(t) f(x(t))-\mu x(t),u (t)\in U_\varepsilon = [0 ,1-\varepsilon], $\\
-$ x(0) = x_0, x \ge 0$\\
-\end{center}
+
+$$ J(x,u) = \int_{0}^{\infty}e^{-\rho t}[\ln(1-u(t))+\ln f(x(t))]dt \rightarrow \max.$$
+$$ \dot{x}(t) = u(t) f(x(t))-\mu x(t),u (t)\in U_\varepsilon = [0 ,1-\varepsilon], $$
+$$ x(0) = x_0, x \ge 0.$$
+
 
 Цель данной главы применить методы решения ЗОУ для решения данной задачи.
 Для решения задачи воспользуемся алгоритмом, который был указан в пунтке 1.3. Рассматривать будем прогнозирующую задачу Лагранжа(п. 1.2), т.е.
-\begin{center}
-	$ J(x,u) = \int_{0}^{z} e^{-\rho t}[\ln(1-u(t))+\ln f(x(t))]dt $
-\end{center}
+\begin{equation}
+	J(x,u) = \int_{0}^{z} e^{-\rho t}[\ln(1-u(t))+\ln f(x(t))]dt.
+\end{equation}
 Решение задачи будем искать численно в классе кусочно-постоянных функций, то есть
-\begin{center}
-	$ u(t) = u_i, t \in [ih, (i+1)h], i = 0,...,T-1 $
-\end{center}
+$$ u(t) = u_i, t \in [ih, (i+1)h], i = 0,...,T-1 ,$$
 где $ h = z/T $ - период дискретизации, $ T \in \mathbb{N}$, $ T $ - горизонт планирования.\\
 Фазовая же переменная $ x $ и уравнение для её рассчета изменятся следующим образом:
 \begin{center}
@@ -24,18 +22,13 @@ $ x(0) = x_0, x \ge 0$\\
 \end{center}
 
 В таком случае критерий качества нашей задачи имеет следующий вид:
-\begin{center}
-	\begin{doublespace}
-		$ J(x,u) = \sum_{i=0}^{T-1}\int_{ih}^{(i+1)h} e^{-\rho t}[\ln(1-u_i)+\ln f(x_i)]dt =$ \\  $ \sum_{i=0}^{T-1}\dfrac{[\ln(1-u_i)+\ln f(x_i)]}{-\rho} \left(e^{-\rho(i+1)h} -  e^{-\rho ih}\right)$
-	\end{doublespace}
-\end{center}
-В итоге мы получаем следующую дискретизированую задачу:
-\begin{center}
-	\begin{doublespace}
-	$ x_{i+1} = u_i f(x_i)-\mu x_i, u_i\in U_\varepsilon = [0 ,1-\varepsilon], x(0) = x_0, x_i \ge 0$\\
-	$ J(x,u) = \sum_{i=0}^{T-1}\dfrac{[\ln(1-u_i)+\ln f(x_i)]}{-\rho} \left(e^{-\rho(i+1)h} -  e^{-\rho ih}\right)$
-	\end{doublespace}
-\end{center}
+$$ J(x,u) = \sum_{i=0}^{T-1}\int_{ih}^{(i+1)h} e^{-\rho t}[\ln(1-u_i)+\ln f(x_i)]dt =$$  
+$$ \sum_{i=0}^{T-1}\dfrac{[\ln(1-u_i)+\ln f(x_i)]}{-\rho} \left(e^{-\rho(i+1)h} -  e^{-\rho ih}\right).$$
+В итоге мы получаем следующую дискретизированую задачу максимума:
+$$ x_{i+1} = u_i f(x_i)-\mu x_i, u_i\in U_\varepsilon = [0 ,1-\varepsilon], x(0) = x_0, x_i \ge 0, i = 0,...,T-1$$
+
+$$ J(x,u) = -\sum_{i=0}^{T-1}[\ln(1-u_i)+\ln f(x_i)] \left(e^{-\rho(i+1)h} -  e^{-\rho ih}\right)/\rho$$
+
 
 Таким образом, задача оптимального управления в классе дискретных управляющих воздействий свелась к задаче нелинейного прогаммирования. Для ее численного решения существует ряд реализованных программно процедур, в частности, в рамках курсовой работы будет использвоаться стандартная процедура fminsearch пакета Matlab.
 

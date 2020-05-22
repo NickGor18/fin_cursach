@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2020.3.24)  22 MAY 2020 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2020.3.24)  22 MAY 2020 15:44
 entering extended mode
 **./CourseWorkSample.tex
 (CourseWorkSample.tex
@@ -1024,13 +1024,7 @@ Underfull \hbox (badness 1796) in paragraph at lines 155--155
  |[]\T2A/cmr/bx/n/17.28 Численные и про-грамм-ные ме-то-ды ре-ше-ния
  []
 
-[10]
-Underfull \hbox (badness 7308) in paragraph at lines 195--196
-[]\T2A/cmr/m/n/14.4 Подавать на вход объ-ек-та управ-ле-ния по-сто-ян-ное управ
--ле-ние
- []
-
-[11]) (chapter2.tex [12]
+[10] [11]) (chapter2.tex [12]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1081,36 +1075,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
  []
 
 [14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 147--149
+Underfull \hbox (badness 1215) in paragraph at lines 145--147
 []\T2A/cmr/m/n/14.4 Магистралями мы на-зы-ва-ем рав-но-вес-ное по-ло-же-ние эко
 -но-ми-че-ской
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 <dugi.png, id=68, 369.63094pt x 331.99031pt>
 File: dugi.png Graphic file (type png)
 <use dugi.png>
-Package pdftex.def Info: dugi.png  used on input line 150.
+Package pdftex.def Info: dugi.png  used on input line 148.
 (pdftex.def)             Requested size: 284.52756pt x 255.55226pt.
 [17]) (chapter3.tex [18 <./dugi.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 53.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 46.
 
 
 ("C:\Users\РќРёРєРѕР»Р°Р№ Р“РѕСЂРѕС€РєРѕ\AppData\Local\Programs\MiKTeX 2.9\tex/
@@ -1120,40 +1114,40 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 <figure1.1.jpg, id=86, 421.575pt x 316.18124pt>
 File: figure1.1.jpg Graphic file (type jpg)
 <use figure1.1.jpg>
-Package pdftex.def Info: figure1.1.jpg  used on input line 110.
+Package pdftex.def Info: figure1.1.jpg  used on input line 103.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 <figure1.2.jpg, id=87, 562.1pt x 421.575pt>
 File: figure1.2.jpg Graphic file (type jpg)
 <use figure1.2.jpg>
-Package pdftex.def Info: figure1.2.jpg  used on input line 111.
+Package pdftex.def Info: figure1.2.jpg  used on input line 104.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 <figure2.1.jpg, id=88, 421.575pt x 316.18124pt>
 File: figure2.1.jpg Graphic file (type jpg)
 <use figure2.1.jpg>
-Package pdftex.def Info: figure2.1.jpg  used on input line 115.
+Package pdftex.def Info: figure2.1.jpg  used on input line 108.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 <figure2.2.jpg, id=89, 562.1pt x 421.575pt>
 File: figure2.2.jpg Graphic file (type jpg)
 <use figure2.2.jpg>
-Package pdftex.def Info: figure2.2.jpg  used on input line 116.
+Package pdftex.def Info: figure2.2.jpg  used on input line 109.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 <figure3.1.jpg, id=90, 421.575pt x 316.18124pt>
 File: figure3.1.jpg Graphic file (type jpg)
 <use figure3.1.jpg>
-Package pdftex.def Info: figure3.1.jpg  used on input line 120.
+Package pdftex.def Info: figure3.1.jpg  used on input line 113.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 File: figure2.2.jpg Graphic file (type jpg)
 <use figure2.2.jpg>
-Package pdftex.def Info: figure2.2.jpg  used on input line 121.
+Package pdftex.def Info: figure2.2.jpg  used on input line 114.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 <figure4.1.jpg, id=91, 421.575pt x 316.18124pt>
 File: figure4.1.jpg Graphic file (type jpg)
 <use figure4.1.jpg>
-Package pdftex.def Info: figure4.1.jpg  used on input line 125.
+Package pdftex.def Info: figure4.1.jpg  used on input line 118.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 File: figure2.2.jpg Graphic file (type jpg)
 <use figure2.2.jpg>
-Package pdftex.def Info: figure2.2.jpg  used on input line 126.
+Package pdftex.def Info: figure2.2.jpg  used on input line 119.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 
 
@@ -1162,9 +1156,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./figure1.1.jpg> <./figure1.2.jpg> <./figure2.1.jpg> <./figure2.2.jpg>])
-(conclusions.tex [23 <./figure3.1.jpg> <./figure4.1.jpg>]) (bibliography.tex
-[24
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [22 <./figure1.1.jpg> <./figure1.2.jpg>] (conclusions.tex [23 <./figure2.1.jp
+g> <./figure2.2.jpg> <./figure3.1.jpg>] [24 <./figure4.1.jpg>])
+(bibliography.tex [25
 
 ]
 Underfull \hbox (badness 1221) in paragraph at lines 12--13
@@ -1184,7 +1181,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 13--14
 mical
  []
 
-) [25
+) [26
 
 ] (CourseWorkSample.aux)
 
@@ -1226,9 +1223,9 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/РќРёРє
 ams/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/РќРёРєРѕР»Р°Р
 № Р“РѕСЂРѕС€РєРѕ/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/
 sftt1440.pfb>
-Output written on CourseWorkSample.pdf (25 pages, 518340 bytes).
+Output written on CourseWorkSample.pdf (26 pages, 514807 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
